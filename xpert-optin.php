@@ -23,7 +23,7 @@ function xpert_optin(){
 
 // Add Fuctionality
 function xpert_optin_function(){
-	echo "Admin Page Test";	
+	require 'helper/xpert_html.php';
 }
 
 
