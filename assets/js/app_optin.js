@@ -1,30 +1,23 @@
  (function ($) {
- 	 $(document).ready(function (direction) {
+ 	 $(document).ready(function () {
 
 
  	 
 
-$('.form-submit').waypoint(function() {
+// $('.entry-title').waypoint(function() {
 
-  // var notify = function(message) {
-  //     var $message = $('<p style="display:none;">' + message + '</p>');
 
-  //     $('.notifications').append($message);
-  //     $message.slideDown(300, function() {
-  //       window.setTimeout(function() {
-  //         $message.slideUp(300, function() {
-  //           $message.remove();
-  //         });
-  //       }, 2000);
-  //     });
-  //   };
+//     alert('You have scrolled to my waypoint.');
+//     //notify("Hello World");
+// }, {
+//     offset: '70%'
+// });
 
-    alert('You have scrolled to my waypoint.');
-    //notify("Hello World");
-}, {
-    offset: '70%'
-});
 
+function setinterval() {
+alert("test");
+}
+var myTimer = setTimeout(setinterval, 5000);
 
 });
  })(jQuery);
