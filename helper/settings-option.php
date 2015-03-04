@@ -4,7 +4,7 @@
         'optin_interval' => 'xpert_optin_interval'
         
     );
-    $hidden_field_name = 'upps_submit_hidden';
+    $hidden_field_name = 'xpert_submit_hidden';
 
     // Read in existing option value from database
     $opt_val = array(
